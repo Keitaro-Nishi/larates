@@ -5,7 +5,7 @@ use App\Services\Line\Event\RecieveTextService;
 use App\Services\Line\Event\FollowService;
 use Illuminate\Http\Request;
 use LINE\LINEBot;
-class LineBotController
+class LineBotController2
 {
     /**
      * callback from LINE Message API(webhook)
