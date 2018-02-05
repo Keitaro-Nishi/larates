@@ -12,7 +12,7 @@ class LineBotController2
      * @param Request $request
      * @throws LINEBot\Exception\InvalidSignatureException
      */
-    public function callback(Request $request)
+    public function callback2(Request $request)
     {
         /** @var LINEBot $bot */
         $bot = app('line-bot');
