@@ -22,5 +22,5 @@ Route::group(['namespace' => 'Api'], function () {
 });
 
 Route::group(['namespace' => 'Api'], function () {
-    Route::post('/line/callback2', 'LineBotController2@callback')->name('line.callback2');
+    Route::post('/line/callback2', 'LineBotController2@callback2')->name('line.callback2');
 });
