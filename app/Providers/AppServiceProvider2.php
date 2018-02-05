@@ -24,8 +24,8 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind('line-bot', function ($app, array $parameters) {
             // $parametersを見て、SECRETとかTOKENをDBとかNoSQLから取ってくることが多い
             return new LINEBot(
-                new LINEBot\HTTPClient\CurlHTTPClient(env('LINE_ACCESS_TOKEN')),
-                ['channelSecret' => env('LINE_CHANNEL_SECRET')]
+                new LINEBot\HTTPClient\CurlHTTPClient(env('LINE_ACCESS_TOKEN2')),
+                ['channelSecret' => env('LINE_CHANNEL_SECRET2')]
             );
         });
     }
