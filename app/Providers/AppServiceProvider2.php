@@ -2,7 +2,7 @@
 namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use LINE\LINEBot;
-class AppServiceProvider extends ServiceProvider
+class AppServiceProvider2 extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
