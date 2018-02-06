@@ -16,11 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-/*
+
 Route::group(['namespace' => 'Api'], function () {
     Route::post('/line/callback', 'LineBotController@callback')->name('line.callback');
 });
-*/
+
 Route::group(['namespace' => 'Api'], function () {
     Route::post('/line/callback2', 'LineBotController2@callback2')->name('line.callback2');
 });
